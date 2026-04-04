@@ -22,7 +22,7 @@ Write a program that asks the user for a word, and:
 3. Prints the first 3 characters of the string
 4. Prints the string in reverse using slicing
 
-**Example output**
+***Example output.*** When you run your program, the format should match the following: 
 ```text
 What is the word that you have in mind? Python
 PythonPythonPythonPython
@@ -30,7 +30,7 @@ Pyt
 nohtyP
 ```
 
-*Hint.* Your program must work for any word provided by the user. While the example above uses 'Python,' your output should adapt correctly to different inputs. Ensure you test your code with various words to verify its flexibility.
+***Hint.*** Your program must work for any word provided by the user. While the example above uses 'Python,' your output should adapt correctly to different inputs. Ensure you test your code with various words to verify its flexibility.
 
 
 ## Question 2. Rectangle Calculator [16 Points]
@@ -46,7 +46,7 @@ Write a program that:
    - the perimeter 
    - the length of the diagonal 
 
-**Example output:**
+***Example output.*** When you run your program, the format should match the following: 
 ```text
 Enter the length: 5
 Enter the width: 3
@@ -57,7 +57,7 @@ Perimeter: 16.0
 Diagonal: 5.83
 ```
 
-*Hint.*
+***Hint.***
 - Convert inputs to numbers and store them for later computation.
 - The diagonal of a rectangle can be calculated as
 ```math
@@ -74,12 +74,14 @@ Write a program that:
 1. Asks the user to enter a number of seconds (integer)
 2. Converts the total seconds into hours, minutes, and seconds, and prints the result.
 
-**Example output**
+***Example output.*** When you run your program, the format should match the following: 
 ```text
 Please enter a number of seconds to convert into hours, minutes, seconds: 3671
 3671 seconds = 1 hours, 1 minutes, 11 seconds
 ```
-*Hint.* You may assume the user enters valid positive integers. Input validation will be introduced in future assignments.
+***Hint.***
+- You may assume the user enters valid positive integers. Input validation will be introduced in future assignments.
+- You may find floor (`//`) and remainder (`%`) useful.
 
 ## Question 4. Word Decoder [24 Points] 
 Create a file named `q4.py`.
@@ -94,7 +96,7 @@ Write a program that:
    - every other character (starting from the first)
    - the word in reverse
 
-**Example output**
+***Example output.*** When you run your program, the format should match the following: 
 ```text
 Please enter a word: datascience
 First character: d
@@ -126,7 +128,7 @@ Compute:
 ### Part (c) [8 Points]
 Print a clear and friendly summary of the trip as shown below. 
 
-**Example output**
+***Example output.*** When you run your program, the format should match the following: 
 ```text
 Enter the trip distance (miles): 180
 Enter the average speed (mph): 60
@@ -138,6 +140,6 @@ For a trip of 180.0 miles at an average speed of 60.0 mph, the driving time will
 Your car will use 6.0 gallons of gas, and the total fuel cost will be $21.0.
 ```
 
-*Hint*. 
+***Hint.*** 
 - Use an empty `print()` statement to create blank lines for readability.
 - Follow the example output and print all computed values in Question 5 rounded to 1 decimal place.
