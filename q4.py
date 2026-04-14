@@ -2,3 +2,13 @@
 # GitHub Username: ellechappelle
 # Date: 04/15/2026
 # Description:
+
+# Part one: store user input as a variable called "word"
+word = input("Please enter a word: ")
+
+# Part two: produce and print hints about the word
+print(f"First character: {word[0]}")
+print(f"Last character: {word[-1]}")
+print(f"First four characters: {word[0:4:]}")
+print(f"Every other character: {word[::2]}")
+print(f"Backward: {word[::-1]}")
