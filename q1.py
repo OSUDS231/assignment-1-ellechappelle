@@ -1,7 +1,7 @@
 # Author: Elle Chappelle
 # GitHub Username: ellechappelle
 # Date: 04/15/2026
-# Description:
+# Description: This program takes a word from the user and prints it while manipulating it in multiple ways
 
 # Part one: store user input as a variable named "word"
 word = input("What is the word that you have in mind? ")

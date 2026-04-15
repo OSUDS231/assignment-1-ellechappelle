@@ -1,7 +1,7 @@
 # Author: Elle Chappelle
 # GitHub Username: ellechappelle
 # Date: 04/15/2026
-# Description:
+# Description: This program takes the dimensions of a rectangle from the user and outputs the area, perimeter, and diagonal length
 
 # Part one: store user input of rectangles dimensions as variables "length" and "width"
 length = float(input("Enter the length: "))

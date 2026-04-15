@@ -1,7 +1,7 @@
 # Author: Elle Chappelle
 # GitHub Username: ellechappelle
 # Date: 04/15/2026
-# Description:
+# Description: This program takes input about a user's trip and prints a summary of the trip
 
 # PART (A): store user input about trip distance, average speed, fuel efficiency, and gas price and variables
 trip_distance = float(input("Enter the trip distance (miles): "))
